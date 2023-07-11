@@ -47,10 +47,14 @@
     line-height: 30px;
 }
 
+.button-main:hover {
+    background-color: #d81b60;
+}
+
 .hot-sell {
     width: 100%;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
+    background: #E554731A;
     background-size: cover;
     margin-bottom: 200px;
     align-items: center;
@@ -72,7 +76,7 @@
     width: 594px;
     flex-direction: column;
     flex-shrink: 0;
-    color: rgba(39, 39, 39, 0.60);
+    color: #272727;
     text-align: center;
     font-family: Lato;
     font-size: 18px;
@@ -85,7 +89,7 @@
     width: 318px;
     height: 420px;
     flex-shrink: 0;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: #E554731A
 }
 
 .insta {
@@ -116,13 +120,14 @@
     gap: 24px;
     margin-bottom: 200px;
     padding: 20px;
+    width: 100%;
 }
 
 .banner-text {
     text-align: center;
     background-image: url("./images/Rectangle\ 9.png");
-    width: 1440px;
-    height: 449px;
+    width: 100%;
+    height: 400px;
     flex-shrink: 0;
     border-radius: 8px;
     color: #272727;
@@ -133,4 +138,143 @@
     font-weight: 800;
     line-height: normal;
     margin-bottom: 200px;
+    padding-top: 20px;
+}
+
+.search-bar {
+    width: 700px;
+    height: 64px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0069d9;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.footerhead {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footertext {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footerend {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.flower-shop {
+    background-color: #E554731A;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.flower-shop h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.flower-shop p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.flower-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.flower-item {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.flower-item img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.flower-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.flower-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d81b60;
+}
+
+.button-singup {
+    padding-left: 200px;
 }
