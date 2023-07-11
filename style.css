@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    width: 708px;
+    height: 100vh;
+    background-color: #E554731A;
+    align-items: center;
+}
+
+.headerimg {
+    width: 635px;
+    height: 800px;
+    background-color: #E554731A;
+}
+
+.buttonmain {
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+}
+.headsection{
+    justify-content: space-between;
+}
